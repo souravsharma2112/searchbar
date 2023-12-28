@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <div class="left_nav">
+                <a href="#">Flipkart</a>
+            </div>
+            <div class="right_nav">
+                <ul>
+                    <li id="searchBox" class="searchbar">
+                        <span id="searchButton" class="search material-symbols-outlined">search</span>
+                        <div id="searchInput" class="input hide">
+                            <input onkeyup="search()" id="searchInputh" type="text">
+                        </div>
+                        <span id="searchClose" class=" hide close material-symbols-outlined">
+                            close
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main container">
+        <section class="section1">
+            <h1>Dream Stuffs</h1>
+            <div id="section1Item" class="section1_items">
+                <!-- <div class="card">
+                    <img src="https://i.insider.com/537614c2ecad04ea41b9d104?width=1000&format=jpeg&auto=webp" alt="">
+                    <h2>Car</h2>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
